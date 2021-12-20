@@ -2,7 +2,7 @@
 
 namespace App\Animals;
 
-class dog
+class Dog
 {
     public $name = null;
     public function __construct($name)

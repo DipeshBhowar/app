@@ -1,7 +1,7 @@
 <?php
 namespace App\Actions;
 
-class climb
+class Climb
 {
     public $name = null;
     public function __construct($name)

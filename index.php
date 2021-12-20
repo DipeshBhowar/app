@@ -1,27 +1,26 @@
 <?php
 //include 'config/config.php';
-require __DIR__ . '/vendor/autoload.php';
 
-use AppClasses\Actions\climb;
-use AppClasses\Actions\swim;
-use AppClasses\Animals\dog;
-use AppClasses\Animals\tiger;
+use App\Actions\Climb;
+use App\Actions\Run;
+use App\Animals\Dog;
+use App\Animals\tiger;
 
-
+require 'vendor/autoload.php';
 
 $name = 'dipesh';
 
 echo "<br>class actions----";
-$climb = new climb($name);
+$climb = new Climb($name);
 $rclimb = $climb->climb();
 echo $rclimb;
 
-$swim = new swim($name);
-$rswim = $swim->swim();
+$swim = new Run($name);
+$rswim = $swim->run();
 echo $rswim;
 
 echo '<br>class animals----';
-$dog = new dog($name);
+$dog = new Dog($name);
 $rdog = $dog->dog();
 echo $rdog;
 $tiger = new tiger($name);

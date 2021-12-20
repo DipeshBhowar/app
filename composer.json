@@ -1,7 +1,13 @@
 {
+    "name": "dipesh/app",
+    "authors": [{
+        "name": "dipesh",
+        "email": "dipeshbhowar001@gmail.com"
+    }],
+    "require": {},
     "autoload": {
         "psr-4": {
-            "App\\": "app/"
+            "App\\": "app"
         }
     }
 }

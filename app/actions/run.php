@@ -2,7 +2,7 @@
 
 namespace App\Actions;
 
-    class run
+    class Run
     {
         public $name = null;
         public function __construct($name)
